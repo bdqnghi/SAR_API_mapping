@@ -1,10 +1,10 @@
 # Supplementary material for the paper: "SAR: Learning Cross-Language API Mappings with Little Knowledge" at FSE 2019
 * Technical Explanation: this part focuses more on an intuitive explanation and we hope to provide the reader more technical explanation and why we come up with this idea.
-  - [Domain Adaptation](https://github.com/djxvii/fse2019/blob/master/DOMAIN_ADAPTATION.md)
+  - [Domain Adaptation](https://github.com/bdqnghi/SAR_mapping/blob/master/DOMAIN_ADAPTATION.md)
 
-* [Usage of source code in Python](https://github.com/djxvii/fse2019/blob/master/README.md#usage)
+* [Usage of source code in Python](https://github.com/bdqnghi/SAR_mapping/blob/master/README.md#usage)
 * Data: will be provided later
-* [Newly found mappings](https://github.com/djxvii/fse2019/blob/master/new_found/new_found_apis.csv): the list of 425 newly found API mappings.
+* [Newly found mappings](https://github.com/bdqnghi/SAR_mapping/blob/master/new_found/new_found_apis.csv): the list of 425 newly found API mappings.
   
 # What is the problem?
 **Cross-language API mappings**: to provide mappings of similar APIs across languages, e.g Figure below.
