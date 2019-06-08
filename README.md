@@ -46,16 +46,13 @@ To represent 2 languages as the domain vector spaces X and Y and try to align th
 
 Available on CPU or GPU, in Python 2 or 3. Faiss is *optional* for GPU users - though Faiss-GPU will greatly speed up the nearest neighbor search - and *highly recommended* for CPU users. Faiss can be installed using "conda install faiss-cpu -c pytorch" or "conda install faiss-gpu -c pytorch".
 
-## Align monolingual word embeddings
 
-* **Unsupervised**: learn a mapping from the source to the target space using adversarial training and (iterative) Procrustes refinement.
-
-### The unsupervised way: adversarial training and refinement (CPU|GPU)
+## Run the code: adversarial training and refinement (CPU|GPU)
 A sample command to learn a mapping using adversarial training and iterative Procrustes refinement:
 ```bash
 python3 unsupervised.py --src_lang java --tgt_lang cs --src_emb data/java_vectors_sdk_functions_api_tokens_with_keywords_50_15.txt --tgt_emb data/cs_vectors_sdk_functions_api_tokens_with_keywords_50_15.txt --n_refinement 2 --emb_dim 50 --max_vocab 300000 --epoch_size 100000 --n_epochs 1 --identical_dict_path "dict/candidates_dict.txt" --dico_eval "eval/java-cs.txt"
 ```
-### Evaluate cross-lingual embeddings (CPU|GPU)
+## Evaluate cross-lingual embeddings (CPU|GPU)
 
 ```bash
 python evaluate.py --src_lang java --tgt_lang cs --src_emb dumped/debug/some_id/vectors-java.txt --tgt_emb dumped/debug/some_id/vectors-cs.txt --dico_eval "eval/java-cs.txt" --max_vocab 200000
