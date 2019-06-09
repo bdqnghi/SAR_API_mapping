@@ -1,5 +1,5 @@
 # Implementation of the paper: "SAR: Learning Cross-Language API Mappings with Little Knowledge" at FSE 2019
-* Technical Explanation: this part focuses more on an intuitive explanation and we hope to provide the reader more technical explanation and why we come up with this idea.
+* Technical Explanation: this part focuses more on an intuitive explanation 
   - [Domain Adaptation](https://github.com/bdqnghi/SAR_mapping/blob/master/DOMAIN_ADAPTATION.md)
 
 * [Usage of source code in Python](https://github.com/bdqnghi/SAR_mapping/blob/master/README.md#usage)
