@@ -1,7 +1,5 @@
 # Implementation of the paper: "SAR: Learning Cross-Language API Mappings with Little Knowledge" at FSE 2019
-* Technical Explanation: this part focuses more on an intuitive explanation 
-  - [Domain Adaptation](https://github.com/bdqnghi/SAR_mapping/blob/master/DOMAIN_ADAPTATION.md)
-
+* [Domain Adaptation](https://github.com/bdqnghi/SAR_mapping/blob/master/DOMAIN_ADAPTATION.md): this part provides an intuitive explanation of domain adaptation
 * [Usage of source code in Python](https://github.com/bdqnghi/SAR_mapping/blob/master/README.md#usage)
 * Data: will be provided later
 * [Newly found mappings](https://github.com/bdqnghi/SAR_mapping/blob/master/new_found/new_found_apis.csv): the list of 425 newly found API mappings.
