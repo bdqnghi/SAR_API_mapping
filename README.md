@@ -53,7 +53,7 @@ python3 unsupervised.py --src_lang java --tgt_lang cs --src_emb data/java_vector
 ### Evaluate cross-lingual embeddings (CPU|GPU)
 
 ```bash
-python evaluate.py --src_lang java --tgt_lang cs --src_emb dumped/debug/some_id/vectors-java.txt --tgt_emb dumped/debug/some_id/vectors-cs.txt --dico_eval "eval/java-cs.txt" --max_vocab 200000
+python3 evaluate.py --src_lang java --tgt_lang cs --src_emb dumped/debug/some_id/vectors-java.txt --tgt_emb dumped/debug/some_id/vectors-cs.txt --dico_eval "eval/java-cs.txt" --max_vocab 200000
 ```
 ### Some explanations and tips:
 * **n_epochs**: number of epochs, usually up to 5 is good enough.
