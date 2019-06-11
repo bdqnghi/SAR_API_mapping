@@ -1,7 +1,7 @@
 ## SAR: Learning Cross-Language API Mappings with Little Knowledge, ESEC/FSE 2019
 * [Domain Adaptation](https://github.com/bdqnghi/SAR_mapping/blob/master/DOMAIN_ADAPTATION.md): this part provides an intuitive explanation of domain adaptation
 * [Usage of source code in Python](https://github.com/bdqnghi/SAR_mapping/blob/master/README.md#usage)
-* Data: will be provided later
+* Data: [java vectors](https://github.com/bdqnghi/SAR_API_mapping/blob/master/data/java_vectors.txt) and [cs vectors](https://github.com/bdqnghi/SAR_API_mapping/blob/master/data/cs_vectors.txt)
 * [Newly found mappings](https://github.com/bdqnghi/SAR_mapping/blob/master/new_found/new_found_apis.csv): the list of 425 newly found API mappings.
   
 ## Problem
