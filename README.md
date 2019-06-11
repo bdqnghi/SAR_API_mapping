@@ -48,7 +48,7 @@ Available on CPU or GPU, in Python 2 or 3. Faiss is *optional* for GPU users - t
 ### Run the code: adversarial training and refinement (CPU|GPU)
 A sample command to learn a mapping using adversarial training and iterative Procrustes refinement:
 ```bash
-python3 unsupervised.py --src_lang java --tgt_lang cs --src_emb data/java_vectors_sdk_functions_api_tokens_with_keywords_50_15.txt --tgt_emb data/cs_vectors_sdk_functions_api_tokens_with_keywords_50_15.txt --n_refinement 2 --emb_dim 50 --max_vocab 300000 --epoch_size 100000 --n_epochs 1 --identical_dict_path "dict/candidates_dict.txt" --dico_eval "eval/java-cs.txt"
+python3 unsupervised.py --src_lang java --tgt_lang cs --src_emb data/java_vectors.txt --tgt_emb data/cs_vectors.txt --n_refinement 2 --emb_dim 50 --max_vocab 300000 --epoch_size 100000 --n_epochs 1 --identical_dict_path "dict/candidates_dict.txt" --dico_eval "eval/java-cs.txt"
 ```
 ### Evaluate cross-lingual embeddings (CPU|GPU)
 
