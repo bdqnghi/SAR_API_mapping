@@ -1,0 +1,52 @@
+INFO - 06/11/19 16:48:39 - 0:00:00 - ============ Initialized logger ============
+INFO - 06/11/19 16:48:39 - 0:00:00 - adversarial: True
+                                     batch_size: 32
+                                     cuda: False
+                                     dico_build: S2T|T2S
+                                     dico_eval: eval/java-cs.txt
+                                     dico_max_rank: 300
+                                     dico_max_size: 300
+                                     dico_method: nn
+                                     dico_min_size: 0
+                                     dico_threshold: 0
+                                     dis_clip_weights: 0
+                                     dis_dropout: 0.0
+                                     dis_hid_dim: 2048
+                                     dis_input_dropout: 0.1
+                                     dis_lambda: 1
+                                     dis_layers: 2
+                                     dis_most_frequent: 500
+                                     dis_optimizer: sgd,lr=0.1
+                                     dis_smooth: 0.1
+                                     dis_steps: 5
+                                     emb_dim: 50
+                                     epoch_size: 100000
+                                     exp_id: 
+                                     exp_name: debug
+                                     exp_path: /Users/bdqnghi/codes/SAR_mapping/dumped/debug/tiugh24uxs
+                                     export: txt
+                                     identical_dict_path: dict/candidates_dict.txt
+                                     lr_decay: 0.98
+                                     lr_shrink: 0.5
+                                     map_beta: 0.001
+                                     map_id_init: True
+                                     map_optimizer: sgd,lr=0.1
+                                     max_vocab: 300000
+                                     min_lr: 1e-06
+                                     n_epochs: 1
+                                     n_refinement: 2
+                                     normalize_embeddings: 
+                                     seed: -1
+                                     src_emb: data/java_vectors.txt
+                                     src_lang: java
+                                     tgt_emb: data/cs_vectors.txt
+                                     tgt_lang: cs
+                                     verbose: 2
+INFO - 06/11/19 16:48:39 - 0:00:00 - The experiment will be stored in /Users/bdqnghi/codes/SAR_mapping/dumped/debug/tiugh24uxs
+INFO - 06/11/19 16:48:39 - 0:00:00 - Loaded 1570 pre-trained word embeddings.
+INFO - 06/11/19 16:48:39 - 0:00:00 - Loaded 2427 pre-trained word embeddings.
+INFO - 06/11/19 16:54:59 - 0:06:20 - Num of synthetic class-method dictionary : 3078
+INFO - 06/11/19 16:54:59 - 0:06:20 - ----> ADVERSARIAL TRAINING <----
+                                     
+                                     
+INFO - 06/11/19 16:54:59 - 0:06:20 - Starting adversarial training epoch 0...

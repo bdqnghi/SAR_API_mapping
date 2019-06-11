@@ -53,9 +53,15 @@ python3 unsupervised.py --src_lang java --tgt_lang cs --src_emb data/java_vector
 ### Evaluate cross-lingual embeddings (CPU|GPU)
 
 ```bash
-python3 evaluate.py --src_lang java --tgt_lang cs --src_emb dumped/debug/some_id/vectors-java.txt --tgt_emb dumped/debug/some_id/vectors-cs.txt --dico_eval "eval/java-cs.txt" --max_vocab 200000
+python3 evaluate.py --src_lang java --tgt_lang cs --src_emb dumped/debug/id/vectors-java.txt --tgt_emb dumped/debug/id/vectors-cs.txt --dico_eval "eval/java-cs.txt" --max_vocab 200000
 ```
+
+### Output
+After the learning step, the output can be found in the directory "dumped/debug/id", where "id" is a random uuid generated each time ones trigger the script "unsupervised.py" to train the model. Inside such directory, there will be two files vectors-java.txt and vectors-cs.txt that represent for the two aligned new vector spaces.
+
 ### Some explanations and tips:
+* **src_emb**: the source vector space
+* **tgt_emb**: the target vector space
 * **n_epochs**: number of epochs, usually up to 5 is good enough.
 * **epoch_size**: size of the epoch to run over the training data once, for large vocabulary(e.g 100.000 words), should be around 500.000-1.000.000. The current default is 100.000
 * **n_refinement**: number of refinement steps, usually the result converges after 2 iterations if the initial results are already good.
