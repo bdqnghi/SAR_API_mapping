@@ -38,7 +38,7 @@ To represent 2 languages as the domain vector spaces X and Y and try to align th
 
 
 ### Dependencies
-* Python 2/3 with [NumPy](http://www.numpy.org/)/[SciPy](https://www.scipy.org/)
+* Python 3 with [NumPy](http://www.numpy.org/)/[SciPy](https://www.scipy.org/)
 * [PyTorch](http://pytorch.org/)
 * [Faiss](https://github.com/facebookresearch/faiss) (recommended) for fast nearest neighbor search (CPU or GPU).
 
