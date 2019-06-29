@@ -40,17 +40,23 @@ To represent 2 languages as the domain vector spaces X and Y and try to align th
 
 ### Dependencies
 * Python 3 with [NumPy](http://www.numpy.org/)/[SciPy](https://www.scipy.org/)
-* [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html?highlight=conda)
+* [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html?highlight=conda) or [Python Pip](https://pip.pypa.io/en/stable/installing/), we recommend the user to use Pip.
 * [PyTorch](http://pytorch.org/)
 * [Faiss](https://github.com/facebookresearch/faiss) (recommended) for fast nearest neighbor search (CPU or GPU).
 
 Available on CPU or GPU, in Python 2 or 3. Faiss is *optional* for GPU users - though Faiss-GPU will greatly speed up the nearest neighbor search - and *highly recommended* for CPU users. Faiss can be installed using "conda install faiss-cpu -c pytorch" or "conda install faiss-gpu -c pytorch".
 
-If the default Pytorch does not work, please try this command:
+If you use Conda to install pytorch, and if the default Pytorch does not work, please try this command:
 ```
 conda install pytorch --channel pytorch
 ```
 
+For the other libs, if using conda, the command will be : ```conda install numpy```
+
+If you use pip, only this command is good enough to install all of the necessary requirements.
+```
+pip install -r requirements.txt
+```
 
 ### Run the code: adversarial training and refinement (CPU|GPU)
 A sample command to learn a mapping using adversarial training and iterative Procrustes refinement:
