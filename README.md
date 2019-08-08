@@ -3,7 +3,7 @@
 * [Usage of source code in Python](https://github.com/bdqnghi/SAR_mapping/blob/master/README.md#usage)
 * Data: [java vectors](https://github.com/bdqnghi/SAR_API_mapping/blob/master/data/java_vectors.txt) and [cs vectors](https://github.com/bdqnghi/SAR_API_mapping/blob/master/data/cs_vectors.txt)
 * [Newly found mappings](https://github.com/bdqnghi/SAR_mapping/blob/master/new_found/new_found_apis.csv): the list of 425 newly found API mappings.
-* We built up our tool mostly based on [MUSE](https://github.com/facebookresearch/MUSE) from Facebook Research.
+* We reused part of [MUSE](https://github.com/facebookresearch/MUSE) from Facebook Research to build up our tool.
   
 ## Problem
 **Cross-language API mappings**: to provide mappings of similar APIs across languages, e.g Figure below.
